@@ -1,0 +1,153 @@
+@media (max-width:1400px) {
+    .swiper-wrapper {
+        width: 30%;
+    }
+    section .featured-Products {
+        background: #eee;
+        padding: 100px 64px;
+    }
+}
+
+@media (max-width:1350px) {
+    section .featured-Products {
+        background: #eee;
+        padding: 200px 0px;
+    }
+}
+
+@media (max-width:1320px) {
+    section .featured-Products .product {
+        height: 335px;
+        width: 290px;
+    }
+}
+
+@media (max-width:1180px) {
+    .swiper-wrapper {
+        width: 35%;
+    }
+    section .featured-Products .product {
+        height: 310px;
+        width: 268px;
+    }
+}
+
+@media (max-width:1100px) {
+    section .featured-Products {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width:870px) {
+    section .featured-Products {
+        grid-template-columns: auto auto;
+        padding: 200px 100px;
+    }
+}
+
+@media (max-width:700px) {
+    section .featured-Products {
+        padding: 200px 25px;
+    }
+}
+
+@media (max-width:590px) {
+    section .featured-Products {
+        padding: 200px 0px;
+    }
+}
+
+@media (max-width:560px) {
+    section .featured-Products {
+        grid-template-columns: auto;
+        padding: 200px 150px;
+    }
+}
+
+@media (max-width:460px) {
+    section .featured-Products {
+        grid-template-columns: auto;
+        padding: 200px 100px;
+    }
+}
+
+@media (max-width:360px) {
+    section .featured-Products {
+        grid-template-columns: auto;
+        padding: 200px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:260px) {
+    section .featured-Products .product {
+        width: 220px;
+    }
+}
+
+@media (max-width:1000px) {
+    .swiper-wrapper {
+        width: 40%;
+    }
+}
+
+@media (max-width:950px) {
+    .swiper-wrapper {
+        width: 45%;
+    }
+}
+
+@media (max-width:900px) {
+    header {
+        height: 85vh;
+    }
+}
+
+@media (max-width:780px) {
+    header {
+        height: 70vh;
+    }
+    section .featured-Products .product {
+        height: 310px;
+        width: 240px;
+    }
+    section .featured-Products .product img {
+        height: 35%;
+    }
+}
+
+@media (max-width:750px) {
+    .swiper-wrapper {
+        width: 55%;
+    }
+}
+
+@media (max-width:550px) {
+    .swiper-wrapper {
+        width: 65%;
+    }
+}
+
+@media (max-width:500px) {
+    header {
+        height: 100vh;
+    }
+    .swiper-wrapper {
+        width: 100%;
+    }
+    .Products {
+        margin: 10px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    header {
+        height: 90vh;
+    }
+    header nav {
+        padding: 0px 10px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,946 @@
+@media (max-width:1450px) {
+    section .limited-Offer .offer-content .content-box {
+        top: 40%;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 700px;
+        left: 0px;
+        top: 190px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .slick .card_part {
+        top: 31px;
+        height: 80%;
+        background-size: 100% 100%;
+    }
+    section .limited-Offer .offer-content {
+        background-position: 75% 15%;
+    }
+    .container p {
+        font-size: 14px;
+        padding: 18px;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 40%;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 600px;
+        left: 0px;
+        top: 190px;
+    }
+}
+
+@media (max-width:1215px) {
+    footer .footer-info .container ul li {
+        padding: 10px 0;
+        font-size: 13.5px;
+    }
+    footer .footer-info .container {
+        padding: 25px;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 40%;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 600px;
+        left: 0px;
+        top: 190px;
+    }
+}
+
+@media (max-width:1100px) {
+    header .content .heading {
+        font-size: 2em;
+    }
+    header .content h4 {
+        font-size: 1.1em;
+    }
+    footer .offer-info {
+        font-size: 1.2em;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 40%;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 600px;
+        left: 0px;
+        top: 190px;
+    }
+}
+
+@media (max-width: 1050px) {
+    footer .footer-info .container {
+        padding: 25px 15px;
+    }
+    footer .offer-info {
+        font-size: 1.1em;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 40%;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 600px;
+        left: 0px;
+        top: 190px;
+    }
+    footer .footer-info .container h1 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 1000px) {
+    section .info .info-section p {
+        font-size: .85em;
+    }
+    section .info .info-section h3 {
+        font-size: 16px;
+    }
+    footer .footer-info .container {
+        padding: 25px 10px;
+    }
+    footer .footer-info .container ul li {
+        font-size: 11px;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 40%;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 600px;
+        left: 0px;
+        top: 190px;
+    }
+}
+
+@media (max-width:950px) {
+    .slick table td ul li h3 {
+        font-size: 15px;
+    }
+    .slick table td ul li p {
+        font-size: 13px;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 40%;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 600px;
+        left: 0px;
+        top: 190px;
+    }
+}
+
+@media (max-width:900px) {
+    header {
+        height: 85vh;
+    }
+    .section0 {
+        padding: 70px 0px 70px 90px;
+    }
+    .section0 .card {
+        width: 45%;
+        padding: 25px;
+    }
+    .container p {
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+    section .featured-Products {
+        padding: 100px 50px;
+        padding-top: 200px;
+    }
+    section .featured-Products h2 {
+        font-size: 2em;
+    }
+    section .limited-Offer {
+        padding: 0px 50px;
+        padding-bottom: 100px;
+    }
+    footer .footer-info {
+        gap: 10px;
+        padding: 50px 25px;
+    }
+    footer .footer-info .container h2 {
+        font-size: 1em;
+    }
+    footer .footer-info .container ul {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:800px) {
+    footer .offer-info {
+        font-size: 1em;
+    }
+    section .info {
+        padding: 0px 50px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width:780px) {
+    header {
+        height: 70vh;
+    }
+    header nav ul li {
+        font-size: 13px;
+    }
+    header nav {
+        padding: 0px 30px;
+    }
+    header .content {
+        left: 60px;
+    }
+    header .content .heading {
+        font-size: 1.5em;
+    }
+    .slick table td ul li h3 {
+        font-size: 10px;
+    }
+    .slick .card {
+        height: 60vh;
+    }
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-size: 20px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 38px;
+        border-radius: 100%;
+    }
+    section .limited-Offer {
+        padding: 0px;
+        padding-bottom: 100px;
+    }
+    footer .offer-info {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:730px) {
+    .section0 {
+        padding: 70px 20px;
+    }
+    .section0 .card {
+        width: 48%;
+        padding: 25px;
+    }
+    .slick table td ul li h3,
+    .slick table td ul li p {
+        font-size: 11px;
+    }
+    footer .offer-info {
+        font-size: 0.7em;
+    }
+    .slick .card_part {
+        top: 65px;
+        height: 69%;
+    }
+    .container tr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container tr td.tdcontent {
+        width: 70%;
+    }
+    .container p {
+        font-size: 10px;
+        padding: 8px 0px;
+    }
+    .container tr td img {
+        height: 200px;
+    }
+    section .info .info-section h3 {
+        font-size: 15px;
+    }
+    footer .footer-info {
+        gap: 1px;
+        padding: 30px 0px;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        width: 500px;
+        left: 0px;
+        top: 200px;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 40%;
+    }
+}
+
+@media (max-width:600px) {
+    .section0 {
+        padding: 70px 40px;
+    }
+    .section0 .card {
+        min-width: 99%;
+    }
+    .container table td.tdimg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    .container table td img {
+        width: 44%;
+        position: absolute;
+        top: 20px;
+        left: 160px;
+        opacity: 0.1;
+        height: 100%;
+    }
+    footer .offer-info {
+        padding: 50px 50px;
+    }
+    .container table td:nth-child(2),
+    .container table .aboutus_td2 {
+        padding: 10px;
+        width: 95%;
+    }
+    .slick {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slick .banner {
+        margin-bottom: 25px;
+    }
+    .slick table tr {
+        margin-top: 0px;
+    }
+    .slick table td {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slick table td ul {
+        width: 85%;
+    }
+    .slick table td ul li h3,
+    .slick table td ul li p {
+        font-size: 15px;
+    }
+    .slick table td:nth-child(1) ul {
+        text-align: left;
+    }
+    .slick .card {
+        position: relative;
+        width: 60%;
+        height: 70vh;
+    }
+    .slick .card_part {
+        top: 0px;
+        height: 100%;
+    }
+    section .info .info-section {
+        width: 45%;
+        padding: 15px;
+        box-shadow: 1px 1px 8px #b6b6b694;
+    }
+    section .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section .limited-Offer .offer-content {
+        background-position: 80% 10%;
+        background-size: cover;
+        height: 300px;
+    }
+    section .limited-Offer .offer-content .content-box h3 {
+        font-size: 2em;
+    }
+    section .limited-Offer .offer-content .content-box .offer {
+        font-size: .85em;
+    }
+    section .limited-Offer .offer-content .content-box button {
+        margin-top: 25px;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    section .featured-Products {
+        overflow-x: scroll;
+        gap: 80px;
+    }
+    section .featured-Products .product {
+        height: 330px;
+        width: 200px;
+        position: relative;
+    }
+    footer .footer-info {
+        gap: 0px;
+        display: flex;
+    }
+    footer .footer-info .container {
+        padding: 25px 0px;
+    }
+    footer .footer-info .container form .name {
+        padding: 5px 10px;
+        width: 95%;
+    }
+    footer .footer-info .container form .submit {
+        padding: 5px 25px;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 400px;
+        left: 0px;
+        top: 187px;
+    }
+}
+
+@media (max-width:530px) {
+    header .content {
+        left: 30px;
+    }
+    header .content .heading {
+        font-size: 1.4em;
+    }
+    header .content h4 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:500px) {
+    .slick h1 {
+        font-size: 1.8em;
+    }
+    .slick table td {
+        width: 100%;
+        display: block;
+    }
+    .slick table td:nth-child(1) ul {
+        text-align: left;
+    }
+    .slick table td ul li {
+        padding: 5px 0px;
+    }
+    section .featured-Products {
+        overflow-x: scroll;
+        gap: 30px;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        width: 400px;
+        left: 0px;
+        top: 200px;
+    }
+    section .limited-Offer .offer-content {
+        background-position: 80% 0%;
+        background-size: cover;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 30%;
+    }
+    footer .offer-info {
+        padding: 30px 10px;
+        font-size: 0.7em;
+        font-weight: 100;
+        word-spacing: 0.3em;
+    }
+    footer .footer-info .container ul {
+        margin-top: 0px;
+    }
+    footer .footer-info .container h5 {
+        font-size: 1em;
+        font-weight: 700;
+    }
+    footer .footer-info .container h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:480px) {
+    footer .offer-info {
+        font-size: 0.5em;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        position: absolute;
+        width: 300px;
+        left: 0px;
+        top: 187px;
+    }
+}
+
+@media (max-width:430px) {
+    section .featured-Products .product {
+        height: 300px;
+        width: 140px;
+        position: relative;
+    }
+    section .limited-Offer .offer-content .content-box {
+        top: 35%;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        width: 350px;
+        left: 0px;
+        top: 200px;
+    }
+    section .limited-Offer .offer-content .content-box form {
+        width: 350px;
+        left: 0px;
+        top: 200px;
+    }
+    section .limited-Offer .offer-content .content-box .content {
+        font-size: .82em;
+    }
+    footer .footer-info {
+        gap: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .footer-info .container h2 {
+        font-size: 0.8em;
+    }
+    footer .footer-info .container h5 {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    footer .footer-info .container ul li {
+        font-size: 13px;
+    }
+    footer .offer-info {
+        font-size: 0.7em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 380px) {
+    section .limited-Offer .offer-content .content-box form {
+        width: 300px;
+        left: 0px;
+        top: 200px;
+    }
+    section .info .info-section {
+        width: 60%;
+    }
+    .slick .card {
+        position: relative;
+        width: 100%;
+        height: 65vh;
+    }
+    .section0 h3 {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    header .content .heading {
+        font-size: 1.3em;
+    }
+    header .content h4 {
+        font-size: 15px;
+        font-weight: 100;
+        margin-top: 2px;
+    }
+    h1.title {
+        font-size: 18px;
+    }
+    h1.sub-title {
+        font-size: 18px;
+    }
+    .title {
+        color: #0093E7;
+        font-weight: 100;
+        font-size: 12px;
+    }
+    .slick h1 {
+        font-size: 18px;
+    }
+    .slick table td ul li p {
+        font-size: 13px;
+    }
+    .slick {
+        margin-bottom: 30px;
+    }
+    .container table td img {
+        width: 70%;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+        opacity: 0.1;
+        height: 100%;
+    }
+    .container table td:nth-child(2),
+    .container table .aboutus_td2 {
+        padding: 0px;
+        width: 95%;
+    }
+    .container {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    header .content {
+        left: 0px;
+        width: 100%;
+        padding: 0 30px;
+        text-align: center;
+    }
+    header {
+        height: 40vh;
+    }
+    header nav {
+        padding: 0px 10px;
+        height: 50px;
+    }
+    header .content .heading {
+        font-size: 1.1em;
+    }
+    header .content h4 {
+        font-size: 11px;
+        font-weight: 100;
+        margin-top: 2px;
+    }
+    .section0 {
+        padding: 0px 40px;
+        padding-bottom: 40px;
+    }
+    .slick {
+        margin-top: 30px;
+    }
+    section .featured-Products {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: scroll;
+        gap: 35px;
+        padding: 90px 20px;
+        padding-bottom: 0px;
+        scrollbar-width: none;
+    }
+    section .featured-Products h2 {
+        position: absolute;
+        top: 10px;
+    }
+    section .featured-Products .product {
+        height: 360px;
+        width: 260px;
+        position: relative;
+    }
+    section .featured-Products .product img {
+        width: 260px;
+        height: 190px;
+    }
+    header .content {
+        left: 0px;
+        width: 100%;
+        padding: 0 0px;
+    }
+}
+
+@media (min-width: 750px) and (max-width:999px) {
+    header nav ul:nth-child(2) {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 100%;
+    }
+    header nav ul:nth-child(3) {
+        background: rgba(0, 52, 82, .15);
+        color: var(--white);
+        display: block;
+        right: 0;
+        top: 92px;
+        Width: 200px;
+        height: 0px;
+        overflow: hidden;
+        text-align: center;
+        transition: all .5s;
+    }
+    header nav ul:nth-child(3) li {
+        margin: 5px 0;
+    }
+    header nav ul:nth-child(3) li:nth-child(1) {
+        margin-top: 30px;
+    }
+    header nav ul:nth-child(3) li:nth-child(5) {
+        margin-bottom: 30px;
+    }
+    header nav .fa-bars,
+    header nav .fa-remove {
+        display: block;
+        position: absolute;
+        right: 80px;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 2em;
+        cursor: pointer;
+    }
+    header nav .fa-bars:hover,
+    header nav .fa-remove:hover {
+        color: #008ED1;
+    }
+    header .content {
+        left: 50px;
+    }
+    section .brands .carousel {
+        padding: 0px 50px;
+        padding-left: 60px;
+    }
+    section .brands .carousel .owl-nav {
+        padding: 0 50px;
+    }
+    section .discount {
+        padding: 0 50px;
+        padding-bottom: 100px;
+    }
+    section .discount .discount-box {
+        height: 350px;
+        padding: 30px 15px;
+    }
+    section .discount .discount-box h3 {
+        font-size: 1em;
+    }
+    section .featured-Products {
+        padding: 100px 50px;
+        padding-top: 200px;
+        grid-template-columns: auto auto auto;
+    }
+    section .limited-Offer {
+        padding: 0px 50px;
+        padding-bottom: 100px;
+    }
+    section .info {
+        grid-template-columns: auto auto;
+        padding: 0px 50px;
+        padding-bottom: 100px;
+    }
+    footer .offer-info {
+        padding: 50px 50px;
+    }
+    footer .footer-info {
+        gap: 10px;
+        padding: 50px 50px;
+    }
+    footer .footer-copyright {
+        padding: 30px 50px;
+    }
+}
+
+
+/*---- media queary min--600px & max--749px ----*/
+
+@media (min-width: 600px) and (max-width:749px) {
+    header {
+        background-position: center;
+    }
+    header nav ul:nth-child(2) {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 100%;
+        font-size: .95em;
+    }
+    header nav ul:nth-child(3) {
+        background: rgba(0, 52, 82, .15);
+        color: var(--white);
+        display: block;
+        right: 0;
+        top: 92px;
+        Width: 200px;
+        height: 0px;
+        overflow: hidden;
+        text-align: center;
+        transition: all .5s;
+    }
+    header nav ul:nth-child(3) li {
+        margin: 5px 0;
+    }
+    header nav ul:nth-child(3) li:nth-child(1) {
+        margin-top: 30px;
+    }
+    header nav ul:nth-child(3) li:nth-child(5) {
+        margin-bottom: 30px;
+    }
+    header nav .fa-bars,
+    header nav .fa-remove {
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 2em;
+        cursor: pointer;
+    }
+    header nav .fa-bars:hover,
+    header nav .fa-remove:hover {
+        color: #008ED1;
+    }
+    header .content {
+        left: 50px;
+    }
+    section .brands .carousel {
+        padding: 0px 50px;
+        padding-left: 60px;
+    }
+    section .brands .carousel .owl-nav {
+        padding: 0 50px;
+    }
+    section .discount {
+        padding: 0 50px;
+        padding-bottom: 100px;
+        grid-template-columns: auto auto;
+    }
+    section .discount .discount-box {
+        height: 350px;
+        padding: 30px 15px;
+    }
+    section .discount .discount-box h3 {
+        font-size: 1em;
+    }
+    section .featured-Products {
+        padding: 100px 50px;
+        padding-top: 200px;
+        grid-template-columns: auto auto;
+    }
+    section .featured-Products h2 {
+        font-size: 2.2em;
+    }
+    section .limited-Offer {
+        padding: 0px 50px;
+        padding-bottom: 100px;
+    }
+    section .limited-Offer .offer-content .content-box {
+        left: 30px;
+        width: 85%;
+    }
+    section .info {
+        grid-template-columns: auto auto;
+        padding: 0px 50px;
+        padding-bottom: 100px;
+    }
+    footer .offer-info {
+        padding: 50px 50px;
+    }
+    footer .footer-copyright {
+        padding: 30px 50px;
+        font-size: .90em;
+    }
+}
+
+
+/*---- media queary min--0px & max--599px ----*/
+
+@media (min-width: 0px) and (max-width:599px) {
+    header {
+        background-position: center;
+    }
+    header nav ul:nth-child(2) {
+        background: rgba(0, 52, 82, .15);
+        color: var(--white);
+        display: block;
+        Width: auto;
+        height: auto;
+        text-align: left;
+        padding: 30px 30px;
+        transition: all .5s;
+        position: absolute;
+        left: -162px;
+        top: 92px;
+    }
+    header nav ul:nth-child(2):after {
+        content: "\27A7";
+        position: absolute;
+        top: 10px;
+        right: -15px;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    header nav ul:nth-child(2):after:hover {
+        color: #008ED1;
+    }
+    header nav ul:nth-child(3) {
+        background: rgba(0, 52, 82, .15);
+        color: var(--white);
+        display: block;
+        right: 0;
+        top: 92px;
+        Width: 200px;
+        height: 0px;
+        overflow: hidden;
+        text-align: center;
+        transition: all .5s;
+    }
+    header nav ul:nth-child(3) li {
+        margin: 5px 0;
+    }
+    header nav ul:nth-child(3) li:nth-child(1) {
+        margin-top: 30px;
+    }
+    header nav ul:nth-child(3) li:nth-child(5) {
+        margin-bottom: 30px;
+    }
+    header nav .fa-bars,
+    header nav .fa-remove {
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 2em;
+        cursor: pointer;
+    }
+    header nav .fa-bars:hover,
+    header nav .fa-remove:hover {
+        color: #008ED1;
+    }
+    section .brands .carousel {
+        padding: 0px 15px;
+        padding-left: 15px;
+    }
+    section .brands .carousel .owl-nav {
+        padding: 0 10px;
+    }
+    section .discount {
+        padding: 0 10px;
+        padding-bottom: 100px;
+        grid-template-columns: auto;
+    }
+    section .discount .discount-box {
+        height: 480px;
+        padding: 30px 15px;
+    }
+    section .discount .discount-box h3 {
+        font-size: 1.4em;
+    }
+    section .featured-Products {
+        padding: 100px 10px;
+        padding-top: 200px;
+        grid-template-columns: auto auto;
+    }
+    section .featured-Products .product img {
+        height: 150px;
+    }
+    section .featured-Products h2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    section .limited-Offer {
+        padding: 0px 10px;
+        padding-bottom: 100px;
+    }
+    section .limited-Offer .offer-content .content-box {
+        left: 20px;
+        width: 85%;
+    }
+    section .info {
+        grid-template-columns: auto;
+        padding: 0px 10px;
+        padding-bottom: 100px;
+    }
+    footer .footer-copyright {
+        padding: 30px 10px;
+        font-size: .80em;
+        gap: 10px;
+    }
+}

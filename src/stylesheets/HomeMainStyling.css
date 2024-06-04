@@ -1,0 +1,544 @@
+.section0 {
+    width: 100%;
+    padding: 30px;
+    padding: 100px 0px 100px 200px;
+}
+
+.section0 .card {
+    width: 40%;
+    padding: 30px;
+    box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+    border-radius: 5px;
+    margin: 1%;
+    display: inline-block;
+    text-align: center;
+    border-top: 2px solid #4033ff;
+}
+
+.section0 .card:hover {
+    background: #079fe6cf;
+    color: white;
+}
+
+.section0 .card.banner:hover {
+    background: #ffffffcf;
+    color: rgb(56, 56, 56);
+}
+
+.section0 .banner {
+    box-shadow: 0px 0px 0px 0px rgba(1, 1, 1, 0.5);
+    border-top: 0px;
+}
+
+.section0 .card i {
+    font-size: 4em;
+    color: #3077e8;
+    float: left;
+}
+
+
+/*CONTAINER*/
+
+.container {
+    width: 100%;
+    padding: 40px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.container table {
+    width: 100%;
+}
+
+.container p {
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 100;
+    text-align: center;
+    word-spacing: 0.3em;
+    letter-spacing: 0.03em;
+}
+
+.title {
+    color: #0093E7;
+    font-weight: 100;
+}
+
+.container table td {
+    width: 40%;
+}
+
+.container table td img {
+    margin: auto;
+    height: 400px;
+}
+
+.container table td:nth-child(2),
+.container table .aboutus_td2 {
+    padding: 20px;
+}
+
+.slick {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin: 60px auto;
+}
+
+.slick .banner {
+    text-align: center;
+}
+
+.slick h1 {
+    font-size: 30px;
+}
+
+.slick table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick table td {
+    width: 30%;
+    padding: 1%;
+}
+
+.slick table td ul li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.slick table td ul li a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.slick table td ul li a:hover {
+    color: #8798bd;
+}
+
+.slick table td ul li h3 {
+    color: #4033ff;
+}
+
+.slick table td ul li p {
+    color: rgba(1, 1, 1, 0.7);
+}
+
+.slick table td:nth-child(1) ul {
+    text-align: right;
+}
+
+.slick table td:nth-child(3) ul {
+    text-align: left;
+}
+
+.slick table td:nth-child(2) .card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick .card {
+    position: relative;
+    width: 90%;
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.slick .card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 900;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slick .card_part {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    transform: translateX( 700px);
+    background-image: url("/images/img3-removebg-preview.png");
+    background-repeat: no-repeat;
+    animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+}
+
+.slick .card_part.card_part-two {
+    z-index: 6;
+    background-image: url("/images/img4-removebg-preview.png");
+    animation-delay: 7s;
+    background-repeat: no-repeat;
+}
+
+.slick .card_part.card_part-three {
+    z-index: 5;
+    background-image: url("/images/img3-removebg-preview.png");
+    animation-delay: 14s;
+    background-repeat: no-repeat;
+}
+
+.slick .card_part.card_part-four {
+    z-index: 4;
+    background-image: url("/images/img4-removebg-preview.png");
+    animation-delay: 21s;
+    background-repeat: no-repeat;
+}
+
+@keyframes opaqTransition {
+    3% {
+        transform: translateX( 0);
+    }
+    25% {
+        transform: translateX( 0);
+    }
+    28% {
+        transform: translateX( -700px);
+    }
+    100% {
+        transform: translateX( -700px);
+    }
+}
+
+section .discount {
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+
+section .discount .discount-box {
+    background: #eee;
+    color: var(--white);
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 30px 25px;
+    position: relative;
+}
+
+section .discount .discount-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .45);
+}
+
+section .discount .discount-box:nth-child(1) {
+    background: url('https://leivip.com/cdn/shop/products/Wholesaledrawstringcroptopwithpuffsleevespink_1.jpg?v=1652446862');
+    background-size: cover;
+    background-position: center;
+}
+
+section .discount .discount-box:nth-child(2) {
+    background: url('https://static.cilory.com/470794-thickbox_default/nologo-cotton-white-round-neck-tee.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section .discount .discount-box:nth-child(3) {
+    background: url('https://images.bewakoof.com/uploads/grid/app/types-of-shirts-for-men-bewakoof-blog-5-1610963789.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section .discount .discount-box>h3,
+p,
+button {
+    position: relative;
+}
+
+section .discount .discount-box>h3 {
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+
+section .discount .discount-box>p {
+    font-size: .90em;
+    margin: 15px 0;
+}
+
+section .discount .discount-box>button {
+    border: none;
+    outline: none;
+    width: 120px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-weight: 700;
+    background: var(--white);
+    color: var(--black);
+    transition: all .5s;
+}
+
+section .discount .discount-box>button:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+section .featured-Products {
+    background: #eee;
+    padding: 100px 100px;
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-auto-rows: auto;
+    gap: 10px;
+    position: relative;
+}
+
+section .featured-Products h2 {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 2.5em;
+    padding: 10px 0;
+}
+
+section .featured-Products h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    transform: translate(-50%, 0);
+    width: 100px;
+    height: 1px;
+    background: #0093E7;
+}
+
+section .featured-Products .product {
+    height: 350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 320px;
+    box-shadow: 0 0 15px #cbcbcb;
+    border-radius: 3px;
+}
+
+section .featured-Products .product .fa-shopping-basket {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--white);
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ccc;
+    color: #888;
+    opacity: 0;
+}
+
+section .featured-Products .product img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    cursor: pointer;
+    margin: 20px;
+}
+
+section .featured-Products .product:hover .fa-shopping-basket {
+    opacity: 1;
+}
+
+section .featured-Products .product .sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--white);
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 7px #aaa;
+}
+
+section .featured-Products .product .product-content {
+    line-height: 22px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 17px;
+    border-top: solid 1px #e4e4e4;
+}
+
+section .featured-Products .product .product-content .name {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+section .featured-Products .product .product-content .category {
+    text-transform: capitalize;
+    color: #aaa;
+    font-weight: 100;
+}
+
+section .featured-Products .product .product-content .price span {
+    text-decoration: line-through;
+    color: #999;
+}
+
+section .featured-Products .product .product-content .stars {
+    font-size: .75em;
+}
+
+section .featured-Products .product .product-content .colors-option {
+    margin-top: 10px;
+}
+
+section .featured-Products .product .product-content .colors-option span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background: orange;
+    cursor: pointer;
+}
+
+section .featured-Products .product .product-content .colors-option span:hover {
+    border: 2px solid var(--black);
+}
+
+section .featured-Products .product .product-content .colors-option span.sheoActive,
+.braceletActive,
+.bagActive {
+    border: 2px solid var(--black);
+}
+
+section .featured-Products .product .product-content .colors-option span:nth-child(1) {
+    background: #0183CD;
+}
+
+section .featured-Products .product .product-content .colors-option span:nth-child(2) {
+    background: #31C202;
+}
+
+section .featured-Products .product .product-content .colors-option span:nth-child(3) {
+    background: #C104AD;
+}
+
+section .limited-Offer {
+    background: #eee;
+    padding: 0px 100px;
+    padding-bottom: 100px;
+}
+
+section .limited-Offer .offer-content {
+    background: url('https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg');
+    background-size: fill;
+    background-position: 70%;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+}
+
+section .limited-Offer .offer-content .content-box {
+    color: var(--white);
+    width: 500px;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+section .limited-Offer .offer-content:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 125, 196, .3);
+}
+
+section .limited-Offer .offer-content .content-box .offer {
+    font-size: .95em;
+    margin: 10px 0;
+}
+
+section .limited-Offer .offer-content .content-box h3 {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+}
+
+section .limited-Offer .offer-content .content-box .content {
+    font-size: .85em;
+}
+
+section .limited-Offer .offer-content .content-box form {
+    position: absolute;
+    width: 700px;
+    left: 500px;
+    top: 100px;
+}
+
+section .limited-Offer .offer-content .content-box form input {
+    padding: 5px 50px;
+}
+
+section .limited-Offer .offer-content .content-box form textarea {
+    width: 100%;
+}
+
+section .limited-Offer .offer-content .content-box button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 1.1em;
+    background: var(--white);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+section .limited-Offer .offer-content .content-box button:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+section .info {
+    background: #eee;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 0px 100px;
+    padding-bottom: 100px;
+}
+
+section .info .info-section {
+    text-align: center;
+    line-height: 26px;
+}
+
+section .info .info-section img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+section .info .info-section p {
+    color: #333;
+    font-size: .95em;
+}

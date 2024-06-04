@@ -1,0 +1,38 @@
+{
+    "name": "shopnow",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "serve": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+        "format": "prettier --write src/"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.5.2",
+        "aos": "^2.3.4",
+        "axios": "^1.7.2",
+        "cors": "^2.8.5",
+        "cors-anywhere": "^0.4.4",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "swiper": "^11.1.4",
+        "vue": "^3.4.21",
+        "vue-axios": "^3.5.2",
+        "vue-resource": "^1.5.3",
+        "vue-router": "^4.3.2"
+    },
+    "devDependencies": {
+        "@rushstack/eslint-patch": "^1.8.0",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "@vue/eslint-config-prettier": "^9.0.0",
+        "eslint": "^8.57.0",
+        "eslint-plugin-vue": "^9.23.0",
+        "prettier": "^3.2.5",
+        "vite": "^5.2.8",
+        "vite-plugin-vue-devtools": "^7.0.25"
+    }
+}

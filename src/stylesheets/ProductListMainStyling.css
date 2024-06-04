@@ -1,0 +1,54 @@
+.productmainsection {
+    background: #f0f0f0;
+    width: 86.8%;
+}
+
+.Products {
+    width: 98%;
+    height: 40vh;
+    position: relative;
+    background: white;
+    margin: 20px;
+}
+
+.Products .swiper img {
+    object-fit: cover;
+}
+
+.Products .swiper a {
+    width: 230px;
+    height: 100%;
+}
+
+.Products .swiper a:hover {
+    background: transparent;
+    cursor: pointer;
+}
+
+.Products .swiper-wrapper {
+    top: 60px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background: transparent;
+    border-radius: 0;
+}
+
+.swiper-button-prev {
+    left: -28px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Products .swiper {
+    height: 80%;
+    top: 0;
+}

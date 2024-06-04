@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: all .1s;
+    user-select: none;
+}
+
+
+/*--color shotcut--*/
+
+ :root {
+    --black: #000;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header nav {
+    background: rgba(0, 52, 82, .15);
+    color: var(--white);
+    display: flex;
+    position: absolute;
+    padding: 20px 30px;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+header nav .fa-bars,
+header nav .fa-remove {
+    display: none;
+}
+
+header nav img {
+    width: 70px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+header nav ul li a {
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: white;
+    box-sizing: content-box;
+}
+
+header nav ul li a:hover {
+    color: #008ED1;
+    background-color: transparent;
+}
+
+header nav ul:nth-child(2) {
+    height: auto;
+}
+
+header nav ul:nth-child(3) {
+    position: absolute;
+    top: 0%;
+    right: 30px;
+    font-weight: 100;
+}
+
+header .content {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translate(0, -50%);
+    text-transform: capitalize;
+    color: #fff;
+    width: 400px;
+    z-index: 2;
+}
+
+header .content .heading {
+    font-size: 3em;
+}
+
+header .content h4 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+header .content button {
+    border: 1px solid var(--white);
+    outline: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: .90em;
+    background: none;
+    color: var(--white);
+    font-weight: 100;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+header .content .shopNow {
+    background: var(--white);
+    color: var(--black);
+}
+
+header .content .shopNow:hover {
+    background: var(--black);
+    color: var(--white);
+    border: 1px solid #000;
+}
+
+header .content .findMore:hover {
+    background: var(--white);
+    color: #000;
+}
+
+.swiper {
+    height: 100%;
+}
+
+.swiper img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: 80px;
+    height: 80px;
+    margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    font-size: 0.3em;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+.swiper-button-next {
+    right: -19px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-radius: 100%;
+}

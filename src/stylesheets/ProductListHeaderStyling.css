@@ -1,0 +1,41 @@
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box input {
+    width: 25vw;
+    height: 3em;
+    border-radius: 2em;
+    border-style: none;
+    padding: 1em;
+    font-size: 0.8vw;
+}
+
+.search-box input::placeholder {
+    font-size: 0.9vw;
+}
+
+.search-box img {
+    position: relative;
+    left: -2.0em;
+    width: auto;
+    height: 1.3em;
+    cursor: pointer;
+}
+
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-left {
+    background-image: transparent;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: white;
+}
+
+.swiper-button-prev {
+    left: -19px;
+    border-radius: 100%;
+}

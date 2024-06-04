@@ -1,0 +1,127 @@
+@media (max-width:1595px) {
+    .overview {
+        width: 60.5%;
+    }
+}
+
+@media (max-width:1555px) {
+    .overview {
+        width: 48.3%;
+    }
+    .info {
+        width: 86.3%;
+    }
+}
+
+@media (max-width:1200px) {
+    .sidebar .botBorder {
+        padding: 25px 0px;
+    }
+    .overview {
+        width: 48.7%;
+    }
+    .productImage {
+        width: 35%;
+    }
+}
+
+@media (max-width:1100px) {
+    .overview h1,
+    .overview h2,
+    .overview h3 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width:700px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .description {
+        margin: 0;
+        font-size: 10pt;
+    }
+    .productImage img {
+        width: 40%;
+    }
+    .productinfo {
+        width: 100%;
+    }
+    .overview {
+        padding: 20px 15px;
+    }
+    .overview h1,
+    .overview h2,
+    .overview h3 {
+        padding: 0;
+        margin: 0;
+    }
+    .botBorder {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .specs {
+        padding: 20px 15px;
+    }
+    .buttons {
+        justify-content: center;
+        gap: 30px;
+        margin: 12px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .description {
+        margin: 0;
+        font-size: 9pt;
+    }
+}
+
+@media (max-width: 360px) {
+    .productImage {
+        /* height: 100vh; */
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .productImage img {
+        width: 65%;
+    }
+    .overview {
+        width: 100%;
+        padding: 0px 0px 0px 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    .overview h1,
+    .overview h2,
+    .overview h3 {
+        font-size: 18px;
+    }
+    .overview h2,
+    .overview h3 {
+        font-size: 15px;
+    }
+    .description {
+        font-size: 8pt;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .specs h5 {
+        display: inline;
+        font: bold 8pt Verdana;
+    }
+    .specs li {
+        padding: 0 0 5px 0;
+        font-size: 13px;
+    }
+}

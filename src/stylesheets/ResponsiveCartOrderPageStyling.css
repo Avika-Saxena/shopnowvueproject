@@ -1,0 +1,50 @@
+@media (max-width:1550px) {
+    .productStage {
+        margin: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width:1010px) {
+    header nav ul li a {
+        display: none;
+    }
+    .search-box input {
+        width: 70%;
+        height: 2em;
+        padding: 0px 1em;
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .overview h2,
+    .overview h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:670px) {
+    .botBorder.clearFix {
+        display: flex;
+        flex-direction: column;
+    }
+    .overview {
+        width: 100%;
+    }
+}
+
+@media (max-width:540px) {
+    .Products .swiper-wrapper {
+        top: 0px;
+    }
+    .Products {
+        height: 40vh;
+    }
+    .swiper-button-prev {
+        left: 0px;
+        top: 65px;
+    }
+    .swiper-button-next {
+        right: 0px;
+        top: 65px;
+    }
+}
