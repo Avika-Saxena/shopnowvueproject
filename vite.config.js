@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import dotenv from 'dotenv'
 dotenv.config()
-// https://vitejs.dev/config/
+    // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), VueDevTools()],
   resolve: {
@@ -17,7 +17,8 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'http://139.5.189.24:8090',
-        changeOrigin: true
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
   }
